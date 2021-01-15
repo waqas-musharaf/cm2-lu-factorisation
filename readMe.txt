@@ -13,6 +13,5 @@ Stage 4: Write a Matlab function that solves a square system of linear equations
 1. Use stage3.m to factorise your matrix into its L and U components. (See note below if you have not managed to do this)
 2. You should calculate the determinants of the triangular factors to determine whether a solution to the system of equations exists
 3. If a solution does not exist your function should display an appropriate message. If a solution does exist, it should be determined using your stage1.m and stage2.m functions.
-
 Your function should have the header:
 function [x] = stage4(A, b)
